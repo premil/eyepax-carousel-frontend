@@ -1,0 +1,15 @@
+.slide-image-wrapper{ 
+    animation: fadeIn 1.5s; 
+}
+.slide-image-image{
+    margin-top: 5rem;
+    width:80%;
+    height: 900px;
+    object-fit: cover;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
